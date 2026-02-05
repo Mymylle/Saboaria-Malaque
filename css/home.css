@@ -1,0 +1,50 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 78px);
+    position: relative;
+    align-items: center;
+    justify-content: left;
+}
+
+#banner {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 140px;
+    
+}
+
+#banner .title {
+    font-size: 5rem;
+    color: black;
+    
+}
+
+#banner .title span{
+    color: #0606068a;
+    display: inline;
+    white-space: wrap;
+
+}
+
+#banner .description{
+    font-size: 1.2rem;
+    
+}
+
+#perfil {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+    z-index: 2;
+    margin-right: 0;
+}
+
+#perfil img {
+    width: 57%;
+    margin-right: 150px;
+    
+}
+
