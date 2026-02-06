@@ -4,6 +4,8 @@
     position: relative;
     align-items: center;
     justify-content: left;
+    z-index: 1;
+    
 }
 
 #banner {
@@ -12,7 +14,7 @@
     flex-direction: column;
     gap: 30px;
     padding-left: 140px;
-    
+    margin-top: 0;
 }
 
 #banner .title {
@@ -38,13 +40,13 @@
     align-items: end;
     justify-content: end;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
     margin-right: 0;
 }
 
 #perfil img {
-    width: 57%;
-    margin-right: 150px;
+    width: 70%;
+    margin-right: 0px;
     
 }
 
