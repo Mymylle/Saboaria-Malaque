@@ -35,7 +35,7 @@ header{
 
 .nav_item.active a {
     color: black;
-    border-bottom: 2px solid #78a48e;
+    border-bottom: 2px solid #cdd6d4;
 }
 
 #mobile_btn {
@@ -59,7 +59,7 @@ header{
     margin-top: 0;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 900px) {
     #nav_list {
         display: none;
     }
