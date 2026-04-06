@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
-
 #products{
     display: grid;
     gap: 20px;
     justify-content: center;
+    align-items: start;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: 10px 15px;
     width: 1fr;
     margin: 25px;
+    margin-bottom: 120px;
 }
 
 .product-card {
@@ -48,7 +48,7 @@ summary {
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
-    list-style: none;
+    list-style-type: none;
     margin: 5px;
     padding: 15px;
 }
@@ -63,4 +63,20 @@ summary:hover{
     align-items: center;
     text-align: justify;
     margin: 5px 3px 4px 5px;
+}
+
+
+
+@media (max-width: 600px) {
+    .svg-order{
+        width: 93%;
+    }
+
+    .svg-product{
+        width: 97%;
+    }
+
+    #myorders h2{
+        font-size: 1.7rem;
+    }
 }
