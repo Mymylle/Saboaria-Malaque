@@ -150,7 +150,7 @@
                                         <li class="summary-item">Lanolina Vegetal</li>
                                         <li class="summary-item">Lauril de Coco/Milho</li>
                                         <li class="summary-item">Essência Cosmética</li>
-                                        <li class="summary-item">Extrato Vegetal de Açafrão(pó)</li>
+                                        <li class="summary-item">Extrato Vegetal de Açafrão (pó)</li>
                                         <li class="summary-item"></li>
                                     </ul>
 
@@ -186,6 +186,33 @@
                         </details>
 
                     </div>
+
+                    <div class="product-card">
+                        <img src="img/AroeiraVermelha.png" alt="">
+                        <h3 class="section-subtitle">Alecrim</h3>
+
+                        <details class="info-product">
+
+                            <summary>Ingredientes</summary>
+
+                                <div class="content-box">
+
+                                    <ul id="summary-content">
+                                        <li class="summary-item">Base Glicerinada Vegetal</li>
+                                        <li class="summary-item">Lanolina Vegetal</li>
+                                        <li class="summary-item">Lauril de Coco/Milho</li>
+                                        <li class="summary-item">Essência Cosmética</li>
+                                        <li class="summary-item">Carvão Ativado Vegetal</li>
+                                        <li class="summary-item">Óleo Essencial de Lavanda</li>
+                                        <li class="summary-item">Extrato de Alecrim (Líq.)</li>
+                                    </ul>
+
+                                </div>
+
+                        </details>
+
+                    </div>
+
 
                     <div class="product-card">
                         <img src="img/AroeiraVermelha.png" alt="">
@@ -240,7 +267,7 @@
                             stroke-linecap="round"/>
                 </svg>
 
-                <div>    
+                <div class="order-forms">    
                     <fieldset>
                         <legend class="section-subtitle">Faça seu pedido!</legend>
                         <form action="" method="post">
@@ -250,16 +277,23 @@
 
                             <label for="Telefone">Telefone:</label>
                             <input type="text" name="Telefone" required>
+                            <div class="qtd-forms">
+                                <label for="acafrao">Açafrão</label>
+                                <input type="number" name="acafrao" id="acafrao" min="0" max="15">
 
-                            <label for="acafrao">Açafrão</label>
-                            <input type="number" name="acafrao" id="acafrao" min="0" max="15">
+                                <label for="carvao">Carvão Ativado</label>
+                                <input type="number" name="carvao" id="carvao" min="0" max="15">
 
-                            <label for="carvao">Carvão Ativado</label>
-                            <input type="number" name="carvao" id="carvao" min="0" max="15">
+                                <label for="aroeira">Aroeira Vermelha</label>
+                                <input type="number" id="aroeira" name="aroeira" min="0" max="15">
 
-                            <label for="aroeira">Aroeira Vermelha</label>
-                            <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+                                <label for="aroeira">Lavanda</label>
+                                <input type="number" id="aroeira" name="aroeira" min="0" max="15">
 
+                                <label for="aroeira">Alecrim</label>
+                                <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+
+                            </div>
                             <label for="Observacoes">Observações:</label>
                             <textarea placeholder="(Opcional)" name="Observacoes" id="Observacoes" cols="40" rows="4"></textarea>
 
