@@ -66,6 +66,11 @@ summary:hover{
 }
 
 .order-forms{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
     padding: 40px;
     background-color: #cdf5b7cc;
     border-radius: 40px;
@@ -92,20 +97,24 @@ summary:hover{
     color: #1d1d1dcc;
 }
 
-/* .qtd-forms {
-    display: grid;
-    gap: 20px;
-    justify-content: center;
-    align-items: start;
-    width: 1fr;
+.qtd-forms-row {
+    display: flex;
+    gap: 25px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin: 10px 0;
 }
- */
-/* .order-forms fieldset{
-    
-} 
- */
+
+.qtd-product{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 100px;
+    font-size: 14px;
+}
+
 .order-forms input[type="number"]{
-    width: 10%;
+    width: 80%;
     padding: 12px;
     margin-bottom: 15px;
     border: 1ps solid #cdf5b7cc;
@@ -118,6 +127,7 @@ summary:hover{
 
 
 .order-forms input[type="text"],
+.order-forms input[type="tel"],
 .order-forms input[type = "email"],
 .order-forms textarea {
     width: 90%;

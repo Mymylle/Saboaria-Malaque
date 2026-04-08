@@ -276,22 +276,34 @@
                             <input type="text" name="Nome" required>
 
                             <label for="Telefone">Telefone:</label>
-                            <input type="text" name="Telefone" required>
-                            <div class="qtd-forms">
-                                <label for="acafrao">Açafrão</label>
-                                <input type="number" name="acafrao" id="acafrao" min="0" max="15">
+                            <input type="tel" name="Telefone" placeholder="(XX) 77 77777-7777"  maxlength = "11" required>
+                            <label for="Telefone">Quantidade que deseja:</label>
 
-                                <label for="carvao">Carvão Ativado</label>
-                                <input type="number" name="carvao" id="carvao" min="0" max="15">
+                            <div class="qtd-forms-row">
+                                <div class="qtd-product">
+                                    <label for="acafrao">Açafrão</label>
+                                    <input type="number" name="acafrao" id="acafrao" min="0" max="15">
+                                </div>
 
-                                <label for="aroeira">Aroeira Vermelha</label>
-                                <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+                                <div class="qtd-product">
+                                    <label for="carvao">Carvão Ativado</label>
+                                    <input type="number" name="carvao" id="carvao" min="0" max="15">
+                                </div> 
 
-                                <label for="aroeira">Lavanda</label>
-                                <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+                                <div class="qtd-product">
+                                    <label for="aroeira">Aroeira Vermelha</label>
+                                    <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+                                </div>
 
-                                <label for="aroeira">Alecrim</label>
-                                <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+                                <div class="qtd-product">
+                                    <label for="aroeira">Lavanda</label>
+                                    <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+                                </div>
+
+                                <div class="qtd-product">
+                                    <label for="aroeira">Alecrim</label>
+                                    <input type="number" id="aroeira" name="aroeira" min="0" max="15">
+                                </div>
 
                             </div>
                             <label for="Observacoes">Observações:</label>
