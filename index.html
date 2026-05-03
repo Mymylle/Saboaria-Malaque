@@ -6,13 +6,14 @@
         <link rel="stylesheet" href="/css/products.css">
         <link rel="stylesheet" href="/css/home.css">
         <link rel="shortcut icon" href="img/favicon_32x32.png" type="image/png">
-
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <title>Saboaria Artesanal Malaque</title>
     </head>
     <body>
@@ -31,6 +32,9 @@
                         <a href="#myproducts">Produtos</a>
                     </li>
                     <li class="nav_item">
+                        <a href="produtos.html">Sobre</a>
+                    </li>
+                    <li class="nav_item">
                         <a href="#FazerPedido">Faça seu pedido</a>
                     </li>
                 </ul>
@@ -47,6 +51,9 @@
                     </li>
                     <li class="nav_item">
                         <a href="#myproducts">Produtos</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="produtos.html">Sobre</a>
                     </li>
                     <li class="nav_item">
                         <a href="#FazerPedido">Faça seu pedido</a>
@@ -73,11 +80,13 @@
                 </div>
 
                 <div id="perfil">
-                    <img src="img/Sabonete natural com design de folha outro.png" alt="Sabonete natural com design de folha">
+                    <img class="aroeira-perfil" src="img/Sabonete natural com design de folha outro.png" alt="Sabonete natural com design de folha">
                 </div>
 
+
+
                 <div id="perfil">
-                    <img src="" alt="">
+                    <img class="lavanda-perfil" src="img/sabonete_invertidollavanda.png" alt="">
                 </div>
                
             </section>
@@ -93,7 +102,7 @@
                             T 310 30"
                             fill="none"
                             stroke="#2c3e50"
-                            stroke-width="2"
+                            stroke-width="1.7"
                             stroke-linecap="round"/>
 
                     <path d="M40 35 
@@ -109,154 +118,52 @@
 
                 <div id="products">
 
-                    <div class="product-card">
+                    <a href="produtos.html#Acafrao" class="product-card">
                         <img src="img/AroeiraVermelha.png" alt="">
                         <h3 class="section-subtitle">Açafrão</h3>
+                    </a>
 
-                        <details class="info-product">
-
-                            <summary>Ingredientes</summary>
-
-                                <div class="content-box">
-
-                                    <ul id="summary-content">
-                                        <li class="summary-item">Base Glicerinada Vegetal</li>
-                                        <li class="summary-item">Lanolina Vegetal</li>
-                                        <li class="summary-item">Lauril de Coco</li>
-                                        <li class="summary-item">Essência Cosmética</li>
-                                        <li class="summary-item">Extrato Vegetal de Açafrão (pó)</li>
-                                        <li class="summary-item"></li>
-
-                                    </ul>
-
-                                </div>
-
-                        </details>
-
-                    </div>
-
-                    <div class="product-card">
+                    <a href="produtos.html#Lavanda" class="product-card">
                         <img src="img/AroeiraVermelha.png" alt="">
                         <h3 class="section-subtitle">Lavanda</h3>
-
-                        <details class="info-product">
-
-                            <summary>Ingredientes</summary>
-
-                                <div class="content-box">
-
-                                    <ul id="summary-content">
-                                        <li class="summary-item">Base Glicerinada Vegetal</li>
-                                        <li class="summary-item">Lanolina Vegetal</li>
-                                        <li class="summary-item">Lauril de Coco/Milho</li>
-                                        <li class="summary-item">Essência Cosmética</li>
-                                        <li class="summary-item">Extrato Vegetal de Açafrão (pó)</li>
-                                        <li class="summary-item"></li>
-                                    </ul>
-
-                                </div>
-
-                        </details>
-
-                    </div>
+                    </a>
 
 
-                    <div class="product-card">
+                    <a href="produtos.html#Carvao" class="product-card">
                         <img src="img/AroeiraVermelha.png" alt="">
                         <h3 class="section-subtitle">Carvão Ativado</h3>
+                    </a>
 
-                        <details class="info-product">
-
-                            <summary>Ingredientes</summary>
-
-                                <div class="content-box">
-
-                                    <ul id="summary-content">
-                                        <li class="summary-item">Base Glicerinada Vegetal</li>
-                                        <li class="summary-item">Lanolina Vegetal</li>
-                                        <li class="summary-item">Lauril de Coco/Milho</li>
-                                        <li class="summary-item">Essência Cosmética</li>
-                                        <li class="summary-item">Carvão Ativado Vegetal</li>
-                                        <li class="summary-item">Óleo Essencial de Lavanda</li>
-                                        <li class="summary-item">Extrato de Melaleuca</li>
-                                    </ul>
-
-                                </div>
-
-                        </details>
-
-                    </div>
-
-                    <div class="product-card">
+                    <a href="produtos.html#Alecrim" class="product-card">
                         <img src="img/AroeiraVermelha.png" alt="">
                         <h3 class="section-subtitle">Alecrim</h3>
-
-                        <details class="info-product">
-
-                            <summary>Ingredientes</summary>
-
-                                <div class="content-box">
-
-                                    <ul id="summary-content">
-                                        <li class="summary-item">Base Glicerinada Vegetal</li>
-                                        <li class="summary-item">Lanolina Vegetal</li>
-                                        <li class="summary-item">Lauril de Coco/Milho</li>
-                                        <li class="summary-item">Essência Cosmética</li>
-                                        <li class="summary-item">Carvão Ativado Vegetal</li>
-                                        <li class="summary-item">Óleo Essencial de Lavanda</li>
-                                        <li class="summary-item">Extrato de Alecrim (Líq.)</li>
-                                    </ul>
-
-                                </div>
-
-                        </details>
-
-                    </div>
+                    </a>
 
 
-                    <div class="product-card">
+                    <a href="produtos.html#Aroeira" class="product-card">
                         <img src="img/AroeiraVermelha.png" alt="">
                         <h3 class="section-subtitle">Aroeira Vermelha</h3>
-
-                        <details class="info-product">
-
-                            <summary>Ingredientes</summary>
-
-                                <div class="content-box">
-
-                                    <ul id="summary-content">
-                                        <li class="summary-item">Base Glicerinada Vegetal</li>
-                                        <li class="summary-item">Lanolina Vegetal</li>
-                                        <li class="summary-item">Lauril de Coco</li>
-                                        <li class="summary-item">Essência Cosmética</li>
-                                        <li class="summary-item">Extrato de Aroeira Vermelha (Líq.)</li>
-                                    </ul>
-
-                                </div>
-
-                        </details>
-
-                    </div>
+                    </a>
 
                 </div>   
 
             </section>
             
             <section id="myorders">
-                <h2 class="section-title">Gostou dos nossos produtos?</h2>
-                <svg class="svg-order" width="420" height="60" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 30 
-                            Q 50 10, 85 30 
-                            T 150 30 
-                            T 240 30 
-                            T 380 30"
+                <h2 id="FazerPedido" class="section-title">Gostou dos nossos produtos?</h2>
+                <svg class="svg-order" width="425" height="60" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 32 
+                            Q 50 9, 85 28 
+                            T 155 30 
+                            T 250 30 
+                            T 360 30"
                             fill="none"
                             stroke="#2c3e50"
-                            stroke-width="2"
+                            stroke-width="1.6"
                             stroke-linecap="round"/>
 
                     <path d="M40 35 
-                            Q 80 50, 120 35 
+                            Q 80 50, 120 37 
                             T 195 40 
                             T 280 35
                             T 370 40"
@@ -316,37 +223,34 @@
 
                     </fieldset>
 
-                </div>
-
-                <div class="social-media-buttons">
-                    <a href="">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-
-                    <a href=""> 
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-
-                     <a href="">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+                </div>         
                 
-                </div>
-
-                
-
             </section>
-
+            
             <footer>
-
+                
                 <div id="footer-items">
-                    <span id="copyright">
-                        &copy; 2025 by Malaque (Mymylle). Todos os direitos reservados.
-                    </span>
-
+                    
                     <div class="social-media-buttons">
 
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        
+                        <a href=""> 
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        
                     </div>
+                    
+                    <span id="copyright">
+                        &copy; 2025 by Malaque. Todos os direitos reservados.
+                    </span>
+                   
                 </div>
 
             </footer>

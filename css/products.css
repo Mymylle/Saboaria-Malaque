@@ -20,6 +20,8 @@
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
     overflow: hidden;
+    text-decoration: none;
+    padding-bottom: 40px;
 }
 
 .product-card:hover {
@@ -42,28 +44,6 @@
     font-size: 1rem;
 }
 
-summary {
-    color: #1d1d1dcc;
-    background-color: #dcf7cd94;
-    border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    list-style-type: none;
-    margin: 5px;
-    padding: 15px;
-}
-
-summary:hover{
-    background-color: #cdf5b7cc;
-}
-
-.summary-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    margin: 5px 3px 4px 5px;
-}
 
 .order-forms{
     font-family: "Quicksand", sans-serif;

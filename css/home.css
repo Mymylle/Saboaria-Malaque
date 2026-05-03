@@ -65,6 +65,12 @@
     
 }
 
+.lavanda-perfil{
+    width: 50%;
+    height: 430px;
+    
+}
+
 @media screen and (max-width: 950px) {
     #home {
         display: flex;
